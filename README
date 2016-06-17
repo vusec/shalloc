@@ -1,0 +1,7 @@
+Library containing a number of modular memory allocators. Contains support for a
+number of different types of allocators which can be combined. Furthermore,
+shalloc supports allocators in shared memory, meaning any process attached to
+this memory can malloc/free, visible to all other processes.
+
+Licenses: note that most allocators in this projects are pre-existing/external
+projects.  As such, these projects have different licenses than shalloc itself.
