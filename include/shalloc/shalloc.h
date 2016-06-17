@@ -38,8 +38,8 @@
 #    define SHALLOC_BASE_ADDR               ((unsigned) 0xA0000000)
 #    define SHALLOC_LAST_ADDR               ((unsigned) 0xBFFFFFFF)
 #  else
-#    define SHALLOC_BASE_ADDR               ((unsigned) 0x60000000)
-#    define SHALLOC_LAST_ADDR               ((unsigned) 0x9FFFFFFF)
+#    define SHALLOC_BASE_ADDR               ((unsigned) 0x80000000)
+#    define SHALLOC_LAST_ADDR               ((unsigned) 0xBFFFFFFF)
 #  endif
 #endif
 
